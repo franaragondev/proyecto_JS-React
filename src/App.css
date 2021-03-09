@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {
@@ -35,4 +35,77 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#cabecera{
+  background-color: #C2D198;
+  display: flex;
+  justify-content: space-between;
+}
+
+#texto_cabecera{
+  margin-left: 2rem;
+}
+
+#menu{
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+#logo{
+  width: 5rem;
+  height: 5rem;
+  cursor: pointer;
+}
+
+#buscador{
+  background-color: #C2D198;
+  padding: 1rem;
+}
+
+#buscador_campo{
+  width: 48%;
+  height: 2rem;
+  border-radius: 15px;
+  outline: none;
+  margin-right: 1rem;
+}
+
+#buscador_keyword{
+  width: 48%;
+  height: 2rem;
+  border-radius: 15px;
+  outline: none;
+}
+
+#btn_buscar{
+  margin-top: 1rem;
+  width: 8rem;
+  height: 1.5rem;
+  cursor: pointer;
+  background-color: #544448;
+  border: 0;
+  color: white;
+  border-radius: 15px;
+}
+
+#lista_productos{
+  display: flex;
+  width: 100%;
+  margin: auto;
+  flex-flow: row wrap;
+}
+
+#contenedor_producto{
+  flex: 0 45%;
+}
+
+#imagen{
+  cursor: pointer;
+}
+
+#campos_aplicacion{
+  font-size: 1rem;
 }
